@@ -15,6 +15,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        // 创建 基础类型VC vc
+        let vc:DataTypesViewController = DataTypesViewController()
+        
+        
+        
+        
+        
+        // 前往 vc   present 方式
+        self.present(vc, animated: true, completion: nil)
+    }
 }
 
