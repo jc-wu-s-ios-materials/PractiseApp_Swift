@@ -19,13 +19,16 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
         
         // 创建 基础类型VC vc
-        let vc:DataTypesViewController = DataTypesViewController()
+//        let vc:DataTypesViewController = DataTypesViewController()
         
+        // 创建 练习ScrollView 的 VC
+        let vc:ScrollViewPractiseVC = ScrollViewPractiseVC()
         
         
         
         
         // 前往 vc   present 方式
+        vc.modalPresentationStyle = UIModalPresentationStyle.fullScreen
         self.present(vc, animated: true, completion: nil)
     }
 }

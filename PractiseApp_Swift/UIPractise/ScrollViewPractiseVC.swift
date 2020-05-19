@@ -12,6 +12,7 @@ class ScrollViewPractiseVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.white
         NSLog("Here is ScrollViewPractiseVC")
         // Do any additional setup after loading the view.
     }
