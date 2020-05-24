@@ -7,4 +7,7 @@ target 'PractiseApp_Swift' do
 
   # Pods for PractiseApp_Swift
 pod 'Masonry'
+pod 'SnapKit'
+pod 'YYImage'
+pod 'AFNetworking'
 end
