@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class ScrollViewPractiseVC: UIViewController {
 
@@ -15,21 +16,13 @@ class ScrollViewPractiseVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
-        NSLog("Here is ScrollViewPractiseVC")
-        // Do any additional setup after loading the view.
-        
-        self.scrollView = UIScrollView()
-        self.scrollView?.frame = self.view.frame
-        
-        
-        
-        let imgView0:UIImageView = UIImageView()
-        imgView0.backgroundColor = UIColor.blue
-        self.scrollView?.addSubview(imgView0)
 
-        let urlstring = "http://pigeon-img-pub-test.oss-cn-beijing.aliyuncs.com/1711af5f5ad53b3.png?width=750"
-
-
+        let blueview = UIView()
+        blueview.backgroundColor = .blue
+        self.view .addSubview(blueview)
+        blueview.snp.makeConstraints { (make) in
+            make.top.bottom.leading.trailing.equalTo(self.view)
+        }
         
     }
 

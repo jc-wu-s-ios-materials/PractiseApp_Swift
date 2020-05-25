@@ -14,6 +14,9 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - Mantle (2.1.1):
+    - Mantle/extobjc (= 2.1.1)
+  - Mantle/extobjc (2.1.1)
   - Masonry (1.1.0)
   - SnapKit (5.0.1)
   - YYImage (1.0.4):
@@ -22,6 +25,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - Mantle
   - Masonry
   - SnapKit
   - YYImage
@@ -29,16 +33,18 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - Mantle
     - Masonry
     - SnapKit
     - YYImage
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
 
-PODFILE CHECKSUM: d0c77b2bd876d065ba8417068f8a3884396f1135
+PODFILE CHECKSUM: 25aa6932b71ac2aa39fa45105d7f0c423e904f48
 
 COCOAPODS: 1.8.1
