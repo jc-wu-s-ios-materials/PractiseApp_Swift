@@ -22,9 +22,10 @@ class ViewController: UIViewController {
 //        let vc:DataTypesViewController = DataTypesViewController()
         
         // 创建 练习ScrollView 的 VC
-        let vc:ScrollViewPractiseVC = ScrollViewPractiseVC()
-        
-        
+//        let vc:ScrollViewPractiseVC = ScrollViewPractiseVC()
+
+        // 创建 Swift使用OC 的VC
+        let vc:UsingOC = UsingOC()
         
         
         // 前往 vc   present 方式
