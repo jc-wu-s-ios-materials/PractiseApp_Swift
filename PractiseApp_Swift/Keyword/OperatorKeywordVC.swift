@@ -12,8 +12,11 @@ class OperatorKeywordVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(#file+#function+"第\(#line)行")
-        
+        NSLog(#file+#function+"第\(#line)行")
+
+        let x = 0
+        print(x.isMultiple(of: 2))
+
     }
 
 }
