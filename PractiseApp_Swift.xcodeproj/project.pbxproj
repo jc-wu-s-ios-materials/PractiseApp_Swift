@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,10 +16,15 @@
 		6D890E192473BD3400213CE3 /* ScrollViewPractiseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D890E182473BD3400213CE3 /* ScrollViewPractiseVC.swift */; };
 		6D90707E247A1B0800FAF4C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D890E022473B0E300213CE3 /* Main.storyboard */; };
 		6D90707F247A1B0F00FAF4C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D890E0A2473B0E400213CE3 /* LaunchScreen.storyboard */; };
-		6D907088247B5DBE00FAF4C0 /* Pods_PractiseApp_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F9BA64D1B1997D712A447 /* Pods_PractiseApp_Swift.framework */; };
 		6D90709F247BBB6C00FAF4C0 /* NSObject+wujcThings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D90709E247BBB6C00FAF4C0 /* NSObject+wujcThings.m */; };
 		6D9070A9247BBD8000FAF4C0 /* UsingOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9070A8247BBD8000FAF4C0 /* UsingOC.swift */; };
+		6DBD6C852498C7A400412FD4 /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = 6DBD6C842498C7A400412FD4 /* FacebookShare */; };
+		6DBD6C872498C7A400412FD4 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6DBD6C862498C7A400412FD4 /* FacebookCore */; };
+		6DBD6C892498C7A400412FD4 /* FacebookGamingServices in Frameworks */ = {isa = PBXBuildFile; productRef = 6DBD6C882498C7A400412FD4 /* FacebookGamingServices */; };
+		6DBD6C8B2498C7A400412FD4 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 6DBD6C8A2498C7A400412FD4 /* FacebookLogin */; };
 		6DEF18CC2484A0C7005EAF23 /* OperatorKeywordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF18CB2484A0C7005EAF23 /* OperatorKeywordVC.swift */; };
+		6DEF18D12484A96E005EAF23 /* Pods_PractiseApp_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F9BA64D1B1997D712A447 /* Pods_PractiseApp_Swift.framework */; };
+		6DEF18D32484A995005EAF23 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DEF18CD2484A967005EAF23 /* SnapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +52,7 @@
 		6D9070A8247BBD8000FAF4C0 /* UsingOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingOC.swift; sourceTree = "<group>"; };
 		6DABF95A491394F08D34A575 /* Pods-PractiseApp_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PractiseApp_Swift.debug.xcconfig"; path = "Target Support Files/Pods-PractiseApp_Swift/Pods-PractiseApp_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		6DEF18CB2484A0C7005EAF23 /* OperatorKeywordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorKeywordVC.swift; sourceTree = "<group>"; };
+		6DEF18CD2484A967005EAF23 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99F9BA64D1B1997D712A447 /* Pods_PractiseApp_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PractiseApp_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1222328371324A12E40AE9 /* Pods-PractiseApp_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PractiseApp_Swift.release.xcconfig"; path = "Target Support Files/Pods-PractiseApp_Swift/Pods-PractiseApp_Swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +62,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D907088247B5DBE00FAF4C0 /* Pods_PractiseApp_Swift.framework in Frameworks */,
+				6DEF18D12484A96E005EAF23 /* Pods_PractiseApp_Swift.framework in Frameworks */,
+				6DEF18D32484A995005EAF23 /* SnapKit.framework in Frameworks */,
+				6DBD6C8B2498C7A400412FD4 /* FacebookLogin in Frameworks */,
+				6DBD6C852498C7A400412FD4 /* FacebookShare in Frameworks */,
+				6DBD6C892498C7A400412FD4 /* FacebookGamingServices in Frameworks */,
+				6DBD6C872498C7A400412FD4 /* FacebookCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +149,7 @@
 		9D0B2AD085678BE0531ACF9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6DEF18CD2484A967005EAF23 /* SnapKit.framework */,
 				6D90708B247B5E2500FAF4C0 /* SnapKit.framework */,
 				6D907084247B5D9E00FAF4C0 /* Mantle.framework */,
 				6D907081247B5D6700FAF4C0 /* Mantle.framework */,
@@ -177,6 +189,12 @@
 			dependencies = (
 			);
 			name = PractiseApp_Swift;
+			packageProductDependencies = (
+				6DBD6C842498C7A400412FD4 /* FacebookShare */,
+				6DBD6C862498C7A400412FD4 /* FacebookCore */,
+				6DBD6C882498C7A400412FD4 /* FacebookGamingServices */,
+				6DBD6C8A2498C7A400412FD4 /* FacebookLogin */,
+			);
 			productName = PractiseApp_Swift;
 			productReference = 6D890DF92473B0E300213CE3 /* PractiseApp_Swift.app */;
 			productType = "com.apple.product-type.application";
@@ -206,6 +224,9 @@
 				Base,
 			);
 			mainGroup = 6D890DF02473B0E300213CE3;
+			packageReferences = (
+				6DBD6C832498C7A400412FD4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			productRefGroup = 6D890DFA2473B0E300213CE3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -488,6 +509,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6DBD6C832498C7A400412FD4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6DBD6C842498C7A400412FD4 /* FacebookShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DBD6C832498C7A400412FD4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookShare;
+		};
+		6DBD6C862498C7A400412FD4 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DBD6C832498C7A400412FD4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		6DBD6C882498C7A400412FD4 /* FacebookGamingServices */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DBD6C832498C7A400412FD4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookGamingServices;
+		};
+		6DBD6C8A2498C7A400412FD4 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DBD6C832498C7A400412FD4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		6D890E052473B0E300213CE3 /* PractiseApp_Swift.xcdatamodeld */ = {
